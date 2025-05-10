@@ -17,7 +17,7 @@ st.image(logo, width=80)
 st.title("💥 Peak Particle Velocity Prediction")
 st.markdown("#### XGBoost-Based Blasting Evaluation Model")
 
-distance = st.number_input("📏 Distance from Blast (m)", min_value=10.0, max_value=500.0, value=100.0)
+distance = st.number_input("📏 Distance from Blast (m)", min_value=10.0, max_value=2000.0, value=100.0)
 charge = st.number_input("💣 Charge per Delay (kg)", min_value=1.0, max_value=1000.0, value=250.0)
 rock_type = st.selectbox("🪨 Select Rock Type", ["Limestone", "Coal"])
 
